@@ -1,5 +1,5 @@
 ## AnimalPY 🐍
-AnimalPY is you assistant in recieveing links to images of animals 🤖
+AnimalPY is your assistant in recieveing links to images of animals 🤖
 ## Installation 📩
 Tested on Newest Python Versions
 There are no requirements needed other then the standard library ✅
