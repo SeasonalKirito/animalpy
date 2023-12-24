@@ -27,7 +27,7 @@ print(_get_animal(Animals.Dog, "gif"))
 ```
 Output - 🔢
 ```cmd
-https://raw.githubusercontent.com/SeasonalKirito/AnimalPY/main/content/dog/img/[1].png
-https://raw.githubusercontent.com/SeasonalKirito/AnimalPY/main/content/dog/gif/[3].png
+https://raw.githubusercontent.com/SeasonalKirito/animalpy/main/content/dog/img/[4].png
+https://raw.githubusercontent.com/SeasonalKirito/animalpy/main/content/dog/gif/[1].gif
 ```
 The type param located in the () in the animal function can only be either "img" or "gif" 💾

@@ -14,12 +14,12 @@ class Utils:
     
     def _get_img(self, TYPE=None):
         try:
-            return f"{self.RAW_BASE_URL}/content/{TYPE}/img[{self._random_num()}].png"
+            return f"{self.RAW_BASE_URL}/content/{TYPE}/img/[{self._random_num()}].png"
         except Exception as e:
             return str(e)
 
     def _get_gif(self, TYPE=None):
         try:
-            return f"{self.RAW_BASE_URL}/content/{TYPE}/gif[{self._random_num()}].png"
+            return f"{self.RAW_BASE_URL}/content/{TYPE}/gif/[{self._random_num()}].gif"
         except Exception as e:
             return str(e)
