@@ -1,3 +1,3 @@
-from .create import cat, dog, fox, ferret, red_panda, capybara
+from .create import _get_animal, Animals
 
-__version__ = "0.2"
+__version__ = "0.3"

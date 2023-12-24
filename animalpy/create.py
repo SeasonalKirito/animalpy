@@ -1,39 +1,20 @@
 from animalpy.utils import Utils
 utils = Utils()
 
-def cat(type="img"):
-    if type == "img":
-        return utils._get_img("cat")
-    elif type == "gif":
-        return utils._get_gif("cat")
-    
-def dog(type="img"):
-    if type == "img":
-        return utils._get_img("dog")
-    elif type== "gif":
-        return utils._get_gif("dog")
-    
-def fox(type="img"):
-    if type == "img":
-        return utils._get_img("fox")
-    elif type== "gif":
-        return utils._get_gif("fox")
+class Animals:
+    Cat = "cat"
+    Dog = "dog"
+    Ferret = "ferret"
+    Capybara = "capybara"
 
-def ferret(type="img"):
+def _get_animal(animal:None, type="img"):
+    if animal == None:
+        return("Please give the animal param, ex: Animals.Cat")
+    else:
+        pass
+
     if type == "img":
-        return utils._get_img("ferret")
-    elif type== "gif":
-        return utils._get_gif("ferret")
-    
-def red_panda(type="img"):
-    if type == "img":
-        return utils._get_img("red_panda")
-    elif type== "gif":
-        return utils._get_gif("red_panda")
-    
-def capybara(type="img"):
-    if type == "img":
-        return utils._get_img("capybara")
-    elif type== "gif":
-        return utils._get_gif("capybara")
+        return utils._get_img(animal)
+    elif type == "gif":
+        return utils._get_gif(animal)
     

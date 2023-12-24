@@ -13,18 +13,17 @@ and the code gives a random image out of the images and returns the link. 📨
 ## Usage
 To define and use all its functions you will do this -|
 ```py
-from animalpy import animal_name1, animal_name2, animal_name3
+from animalpy import _get_animal, Animals
 ```
-to find out the names of the animals go to the content folder in the repository 
-and find the folder name of the animal you want to use and put that in the animal_name.
  
 ---
  
 Input - 🔤
 ```py
-from animalpy import dog
-print(dog("img"))
-print(dog("gif"))
+from animalpy import _get_animal, Animals
+
+print(_get_animal(Animals.Dog, "img"))
+print(_get_animal(Animals.Dog, "gif"))
 ```
 Output - 🔢
 ```cmd

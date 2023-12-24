@@ -2,8 +2,8 @@ import random
 
 class Utils:
     def __init__(self):
-        self.BASE_URL = "https://github.com/SeasonalKirito/AnimalPY"
-        self.RAW_BASE_URL = "https://raw.githubusercontent.com/SeasonalKirito/AnimalPY/main"
+        self.BASE_URL = "https://github.com/SeasonalKirito/animalpy"
+        self.RAW_BASE_URL = "https://raw.githubusercontent.com/SeasonalKirito/animalpy/main"
         self.CURRENT_MAX = 5
 
     def _random_num(self):

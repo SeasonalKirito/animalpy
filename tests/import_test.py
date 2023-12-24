@@ -1,4 +1,4 @@
-from animalpy import dog
+from animalpy import _get_animal, Animals
 
-print(dog("img"))
-print(dog("gif"))
+print(_get_animal(Animals.Dog, "img"))
+print(_get_animal(Animals.Dog, "gif"))
